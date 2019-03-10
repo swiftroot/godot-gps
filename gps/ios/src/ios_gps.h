@@ -7,9 +7,11 @@ DeviceCheck SDK and returns the result in a GDScript callback.
 */
 
 #import "app_delegate.h"
+#import <CoreLocation/CoreLocation.h>
 
 @interface IOSGPS : NSObject {
 	int instanceId;
+	CLLocationManager locationManager;
 }
 
 - (void) setInstanceId: (int)pInstanceId;
