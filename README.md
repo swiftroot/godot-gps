@@ -1,2 +1,7 @@
-# godot-gps
-Gps module for Godot iOS
+# Godot iOS GPS
+iOS GPS for Godot
+
+## Status
+This module is currently in development
+
+
